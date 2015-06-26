@@ -25,3 +25,10 @@ let width = 100;
 
 let labelWidth = label + String(width);
 
+
+//通过let声明常量，var声明变量
+let maximumNumberOfLoginAttempts = 10//声明一个名字为maximumNumberOfLoginAttempts的新常量，并让他的值为10
+var currentLoginAttempts = 0//声明一个名字为currentLoginAttempts的变量，将他的值初始化为0
+
+var x=1,y=2,z=3//可以同时声明多个变量
+
