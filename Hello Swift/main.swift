@@ -32,3 +32,15 @@ var currentLoginAttempts = 0//声明一个名字为currentLoginAttempts的变量
 
 var x=1,y=2,z=3//可以同时声明多个变量
 
+var message: String //声明了一个字符串类型的变量
+message = "hello world";//给message赋值
+
+let π = 3.14
+
+let 你好 = "你好";
+
+let 🐶 = "dog";
+
+
+
+

@@ -15,4 +15,4 @@ let number:Double = 100
 let number1:Float = 100
 
 
-println(number3)
+println(number1)
