@@ -41,6 +41,65 @@ let 你好 = "你好";
 
 let 🐶 = "dog";
 
+var 我好 = "nihao"
+
+我好 = "他好"
+
+println(我好)
+
+let 分好 = "fffff"; println(分好)//同一行里面写多句代码用分号隔开
 
 
+//整数范围
+let minValue = INT8_MIN
+let maxValue = UInt8.max
+//Int在对应平台与对应的整数长度相同
+//UInt是swift提供的特殊的无符号类型UInt，长度与当前平台原生字长相同
+//尽量不要使用UInt
 
+//let cannot: UInt8 = -1 //Uint8不能为负
+
+//let tooBig:Int8 = Int8.max + 1    //Int8不能存储超过最大值的数
+
+let twothousand:UInt16 = 2000
+
+let ont :UInt8 = 1
+
+let twoandone = twothousand + uint16(ont)
+println(twoandone)
+
+typealias 我是16位的 = uint16//typealias是类型别名,可以在任何地方使用原类型的地方使用他
+
+var maxnumber = 我是16位的.max
+
+let tureaaaaa = true
+
+if tureaaaaa{
+    println("是真的")
+}else{
+    println("是假的")
+}
+
+
+//元组tuples
+let http404error = (404,"NOT FOUND")
+
+let (statusCode, statusmessage) = http404error
+
+println("status == \(statusCode)")
+
+println(statusmessage)
+
+println(http404error)
+
+println(http404error.0)
+
+let (thestatuscode,_) = http404error
+
+let http200status = (code:300, desc:"OK")
+
+println(http200status.0)
+
+let possibleNumber = "12345"
+
+let  convertnumber = possibleNumber.toInt()
