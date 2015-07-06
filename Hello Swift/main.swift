@@ -103,3 +103,10 @@ println(http200status.0)
 let possibleNumber = "12345"
 
 let  convertnumber = possibleNumber.toInt()
+
+let possibleString: String? = "option string"
+
+println(possibleString!)
+
+let assumedString:String! = "assumedString"
+println(assumedString)
