@@ -38,6 +38,20 @@ let cow: Character = "c"
 let person: String = "person"
 let haha : String = "haha"
 
-let sub = person + haha
-let dogCow = dog + cow
-let personcat = person + cat
+
+let personcat = person + haha
+
+//swif可以对浮点数进行取余运算
+println(8 % 2.3)
+
+
+for index in 1...10{
+    println("\(index) * 5 = \(index * 5)")
+}
+
+let names = ["tom","lihua","liujian","huangshaohua"]
+let count = names.count
+
+for i in 0..<count {
+    println("第\(i+1)个人叫做\(names[i])")
+}
