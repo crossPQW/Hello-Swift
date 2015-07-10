@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		387A5D7A1AFB350800360470 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387A5D791AFB350800360470 /* main.swift */; };
+		38A317011B4D293600ECF3C0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A317001B4D293600ECF3C0 /* main.swift */; };
 		38E369A01B4A7E180011942E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E3699F1B4A7E180011942E /* main.swift */; };
 		38E518A21B4BCCD5009D74C2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E518A11B4BCCD5009D74C2 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		387A5D741AFB350800360470 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		38A316FC1B4D293600ECF3C0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -46,6 +56,8 @@
 		387A5D761AFB350800360470 /* Hello Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hello Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		387A5D791AFB350800360470 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		387A5D801AFB359100360470 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		38A316FE1B4D293600ECF3C0 /* 集合类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "集合类型"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A317001B4D293600ECF3C0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		38E3699D1B4A7E170011942E /* 基本运算符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "基本运算符"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E3699F1B4A7E180011942E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		38E5189F1B4BCCD5009D74C2 /* 字符串和字符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "字符串和字符"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +67,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		387A5D731AFB350800360470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A316FB1B4D293600ECF3C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,6 +103,7 @@
 				387A5D781AFB350800360470 /* Hello Swift */,
 				38E3699E1B4A7E180011942E /* 基本运算符 */,
 				38E518A01B4BCCD5009D74C2 /* 字符串和字符 */,
+				38A316FF1B4D293600ECF3C0 /* 集合类型 */,
 				387A5D771AFB350800360470 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +114,7 @@
 				387A5D761AFB350800360470 /* Hello Swift */,
 				38E3699D1B4A7E170011942E /* 基本运算符 */,
 				38E5189F1B4BCCD5009D74C2 /* 字符串和字符 */,
+				38A316FE1B4D293600ECF3C0 /* 集合类型 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +126,14 @@
 				387A5D801AFB359100360470 /* MyPlayground.playground */,
 			);
 			path = "Hello Swift";
+			sourceTree = "<group>";
+		};
+		38A316FF1B4D293600ECF3C0 /* 集合类型 */ = {
+			isa = PBXGroup;
+			children = (
+				38A317001B4D293600ECF3C0 /* main.swift */,
+			);
+			path = "集合类型";
 			sourceTree = "<group>";
 		};
 		38E3699E1B4A7E180011942E /* 基本运算符 */ = {
@@ -142,6 +171,23 @@
 			name = "Hello Swift";
 			productName = "Hello Swift";
 			productReference = 387A5D761AFB350800360470 /* Hello Swift */;
+			productType = "com.apple.product-type.tool";
+		};
+		38A316FD1B4D293600ECF3C0 /* 集合类型 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A317041B4D293600ECF3C0 /* Build configuration list for PBXNativeTarget "集合类型" */;
+			buildPhases = (
+				38A316FA1B4D293600ECF3C0 /* Sources */,
+				38A316FB1B4D293600ECF3C0 /* Frameworks */,
+				38A316FC1B4D293600ECF3C0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "集合类型";
+			productName = "集合类型";
+			productReference = 38A316FE1B4D293600ECF3C0 /* 集合类型 */;
 			productType = "com.apple.product-type.tool";
 		};
 		38E3699C1B4A7E170011942E /* 基本运算符 */ = {
@@ -190,6 +236,9 @@
 					387A5D751AFB350800360470 = {
 						CreatedOnToolsVersion = 6.3;
 					};
+					38A316FD1B4D293600ECF3C0 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
 					38E3699C1B4A7E170011942E = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
@@ -213,6 +262,7 @@
 				387A5D751AFB350800360470 /* Hello Swift */,
 				38E3699C1B4A7E170011942E /* 基本运算符 */,
 				38E5189E1B4BCCD5009D74C2 /* 字符串和字符 */,
+				38A316FD1B4D293600ECF3C0 /* 集合类型 */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +273,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				387A5D7A1AFB350800360470 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A316FA1B4D293600ECF3C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A317011B4D293600ECF3C0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +395,24 @@
 			};
 			name = Release;
 		};
+		38A317021B4D293600ECF3C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38A317031B4D293600ECF3C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		38E369A11B4A7E180011942E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -394,6 +470,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		38A317041B4D293600ECF3C0 /* Build configuration list for PBXNativeTarget "集合类型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A317021B4D293600ECF3C0 /* Debug */,
+				38A317031B4D293600ECF3C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		38E369A31B4A7E180011942E /* Build configuration list for PBXNativeTarget "基本运算符" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -410,6 +494,7 @@
 				38E518A41B4BCCD5009D74C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
