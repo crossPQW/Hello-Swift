@@ -81,3 +81,51 @@ var sumArray = threeDoubles + doubles
 println(sumArray)
 
 
+//set
+var letters = Set<Character>()
+println("\(letters)asd")
+letters.insert("a")
+
+var favorite:Set<String> = ["asd","dfg","ewr"]
+var favo:Set<String>
+favo = ["aaaa","bbbbb"]
+println(favo)
+
+for name in favorite{
+    println(name)
+}
+
+var firstSet:Set = ["aaaaaa","bbbbbb","ccccccc"]
+var secondSet:Set = ["ccccccc","ddddddd","eeeeeee"]
+
+//取相同的元素
+var new1set = firstSet.intersect(secondSet)
+println("new1 == \(new1set)")
+
+//去掉相同元素
+var new2set = firstSet.exclusiveOr(secondSet)
+println("new2 == \(new2set)")
+
+//所有元素合并一起
+var new3set = firstSet.union(secondSet)
+println("new3 == \(new3set)")
+
+//根据A中的值,去掉B中的额
+var new4set = firstSet.subtract(secondSet)
+println("new4 == \(new4set)")
+
+
+var a:Int = 1
+
+
+//字典
+var airports:[String:String] = ["TYO":"tokyo","DBU":"dubul"]
+airports["CHA"] = "china"
+println(airports)
+
+airports.updateValue("hahah", forKey: "CHA")
+println(airports)
+
+//创建一个空字典
+var nameOfIntergers = Dictionary<Int, String>()
+
