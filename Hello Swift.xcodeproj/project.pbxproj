@@ -12,6 +12,7 @@
 		38E369A01B4A7E180011942E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E3699F1B4A7E180011942E /* main.swift */; };
 		38E518A21B4BCCD5009D74C2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E518A11B4BCCD5009D74C2 /* main.swift */; };
 		38E8CC191B54BE8500E90CFC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E8CC181B54BE8500E90CFC /* main.swift */; };
+		38E8CD2E1B5510D900E90CFC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E8CD2D1B5510D900E90CFC /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +61,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		38E8CD291B5510D900E90CFC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +85,8 @@
 		38E518A61B4BCF19009D74C2 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		38E8CC161B54BE8500E90CFC /* 控制流 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "控制流"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E8CC181B54BE8500E90CFC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		38E8CD2B1B5510D900E90CFC /* 函数functions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "函数functions"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E8CD2D1B5510D900E90CFC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +125,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		38E8CD281B5510D900E90CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -124,6 +143,7 @@
 				38E518A01B4BCCD5009D74C2 /* 字符串和字符 */,
 				38A316FF1B4D293600ECF3C0 /* 集合类型 */,
 				38E8CC171B54BE8500E90CFC /* 控制流 */,
+				38E8CD2C1B5510D900E90CFC /* 函数functions */,
 				387A5D771AFB350800360470 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,6 +156,7 @@
 				38E5189F1B4BCCD5009D74C2 /* 字符串和字符 */,
 				38A316FE1B4D293600ECF3C0 /* 集合类型 */,
 				38E8CC161B54BE8500E90CFC /* 控制流 */,
+				38E8CD2B1B5510D900E90CFC /* 函数functions */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,6 +201,14 @@
 				38E8CC181B54BE8500E90CFC /* main.swift */,
 			);
 			path = "控制流";
+			sourceTree = "<group>";
+		};
+		38E8CD2C1B5510D900E90CFC /* 函数functions */ = {
+			isa = PBXGroup;
+			children = (
+				38E8CD2D1B5510D900E90CFC /* main.swift */,
+			);
+			path = "函数functions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +299,23 @@
 			productReference = 38E8CC161B54BE8500E90CFC /* 控制流 */;
 			productType = "com.apple.product-type.tool";
 		};
+		38E8CD2A1B5510D900E90CFC /* 函数functions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E8CD2F1B5510D900E90CFC /* Build configuration list for PBXNativeTarget "函数functions" */;
+			buildPhases = (
+				38E8CD271B5510D900E90CFC /* Sources */,
+				38E8CD281B5510D900E90CFC /* Frameworks */,
+				38E8CD291B5510D900E90CFC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "函数functions";
+			productName = "函数functions";
+			productReference = 38E8CD2B1B5510D900E90CFC /* 函数functions */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -294,6 +340,9 @@
 					38E8CC151B54BE8500E90CFC = {
 						CreatedOnToolsVersion = 6.4;
 					};
+					38E8CD2A1B5510D900E90CFC = {
+						CreatedOnToolsVersion = 6.4;
+					};
 				};
 			};
 			buildConfigurationList = 387A5D711AFB350800360470 /* Build configuration list for PBXProject "Hello Swift" */;
@@ -313,6 +362,7 @@
 				38E5189E1B4BCCD5009D74C2 /* 字符串和字符 */,
 				38A316FD1B4D293600ECF3C0 /* 集合类型 */,
 				38E8CC151B54BE8500E90CFC /* 控制流 */,
+				38E8CD2A1B5510D900E90CFC /* 函数functions */,
 			);
 		};
 /* End PBXProject section */
@@ -355,6 +405,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				38E8CC191B54BE8500E90CFC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E8CD271B5510D900E90CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E8CD2E1B5510D900E90CFC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +583,24 @@
 			};
 			name = Release;
 		};
+		38E8CD301B5510D900E90CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38E8CD311B5510D900E90CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -578,6 +654,14 @@
 			buildConfigurations = (
 				38E8CC1A1B54BE8500E90CFC /* Debug */,
 				38E8CC1B1B54BE8500E90CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38E8CD2F1B5510D900E90CFC /* Build configuration list for PBXNativeTarget "函数functions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E8CD301B5510D900E90CFC /* Debug */,
+				38E8CD311B5510D900E90CFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

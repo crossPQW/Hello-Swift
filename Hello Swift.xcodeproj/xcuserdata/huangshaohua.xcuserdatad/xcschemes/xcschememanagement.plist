@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>函数functions.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>基本运算符.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -53,6 +58,11 @@
 			<true/>
 		</dict>
 		<key>38E8CC151B54BE8500E90CFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>38E8CD2A1B5510D900E90CFC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
